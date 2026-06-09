@@ -74,11 +74,11 @@ attendance-backend/
 │   │   └── database.js          # PostgreSQL pool configuration (SSL for Neon)
 │   ├── models/
 │   │   ├── User.js              # User queries & helpers
-│   │   ├── Role.js              # Role queries
-│   │   ├── AttendanceRecord.js  # Attendance CRUD
-│   │   ├── CorrectionRequest.js # Correction request queries
-│   │   ├── AttendanceRule.js    # Rules queries
-│   │   └── AuditLog.js         # Audit log queries
+│   │   
+│   │  
+│   │   
+│   │   
+│   │   
 │   ├── middleware/
 │   │   ├── auth.js              # JWT verification middleware
 │   │   ├── roleCheck.js         # Role-based access guard
